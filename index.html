@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remix icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
+      integrity="sha512-dTsohxprpcruDm4sjU92K0/Gf1nTKVVskNHLOGMqxmokBSkfOAyCzYSB6+5Z9UlDafFRpy5xLhvpkOImeFbX6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>P@ssw0rd generator</title>
+  </head>
+  <body>
+    <main>
+      <section class="main-section">
+        <div class="background">
+          <!-- #region background -->
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <!-- #endregion -->
+        </div>
+        <div class="main-section__container"><i class="ri-lock-line"></i>
+          <h1 class="main-section__title">Passw0rd generator</h1>
+
+          <form class="main-section__form" action="#">
+            
+            <div class="main-section__input-container">
+              <input hidden type="text" autocomplete="username" value="{{...}}" />
+              <input
+              class="main-section__input"
+                id="password-input"
+                type="password"
+                autocomplete="new-password"
+              />
+
+              <button class="main-section__btn" id="show-password-btn" type="button">
+                <i class="ri-eye-line"></i>
+              </button>
+              <button class="main-section__btn" id="generate-password-btn" type="button">
+                <i class="ri-restart-line"></i>
+              </button>
+              <button class="main-section__btn" id="copy-password-btn" type="button">
+                <i class="ri-file-copy-line"></i>
+              </button>
+            </div>
+
+            <input class="main-section__range" id="password-range" type="range" min="5" max="15" value="5" step="1" />
+            <p id="password-len">5</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
